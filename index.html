@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bringing Web Pages to Life</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>🎨 Bringing Web Pages to Life</h1>
+
+  <!-- Part 1: CSS animations -->
+  <button class="fancy-btn">Hover Me</button>
+  <div class="animated-box"></div>
+
+  <!-- Part 2: JavaScript functions -->
+  <section id="function-demo">
+    <h2>JavaScript Function Demo</h2>
+    <p>Result: <span id="result">0</span></p>
+    <button onclick="showCalculation()">Run Calculation</button>
+  </section>
+
+  <!-- Part 3: JS + CSS together -->
+  <section id="interactive">
+    <h2>Interactive Animations</h2>
+    <button onclick="animateBox()">Animate the Box</button>
+    <button onclick="toggleModal()">Toggle Modal</button>
+    <div id="magic-box"></div>
+  </section>
+
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <p>This is a modal popup ✨</p>
+      <button onclick="toggleModal()">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
